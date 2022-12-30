@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    outline-width: 1px;
+    outline-style: groove;
+    outline-color: #3d88c1;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    background-color: #3E7DAE;
+    padding-left: 150px;
+    position: sticky;
+    top: 0;
+    opacity: 0.9;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    opacity: 0.7;
+    padding-left: 20px;
+    margin-left: 5px;
+}
+
+header a:hover {
+    background-color: rgba(255, 255, 255, 0.796);
+    height: 100%;
+    color: #3E7DAE;
+    align-items: center;
+}
+
+header a.activo {
+    background-color: white;
+}
+
+header a:active {
+    transform: translateY(2px);
+}
+
+/* SECCIONES ABAJO */
+
+.seccion {
+    width: 100%;
+    height: 50vh;
+}
+
+#seccion1 {
+    background-color: #F7F7F7;
+    padding-top: 60px;
+}
+
+b {
+    color: #C41B30;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+#seccion1 {
+    width: 100%;
+    height: 500px;
+}
+
+#seccion1 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: #3158ba;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+#seccion1 h3 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin-left: 150px;
+    font-size: 13px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#seccion2 {
+    width: 100%;
+    height: 79vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+#seccion2 img {
+    width: 140px;
+    justify-content: center;
+    margin: auto;
+    flex-direction: row;
+}
+
+.formulario {
+    width: 350px;
+    height: 100%;
+    margin-right: 30px;
+}
+
+.formulario h2 {
+    color: rgb(114, 109, 109);
+    font-weight: lighter;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.formulario h4 {
+    color: rgb(114, 109, 109);
+    font-weight: lighter;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+    font-size: 14px;
+}
+
+.formulario button {
+    background-color: #e06426;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #C41B30;
+    border-width: 1px;
+}
+
+.tarjeta {
+    width: 350px;
+    height: 100%;
+}
+
+.tarjeta h2 {
+    color: rgb(114, 109, 109);
+    font-weight: lighter;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.tarjeta h4 {
+    color: rgb(114, 109, 109);
+    font-weight: lighter;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+    font-size: 14px;
+}
+
+.tarjeta button {
+    background-color: #d02544;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #C41B30;
+    border-width: 1px;
+}
+
+.avioncito {
+    width: 350px;
+    height: 100%;
+}
+
+.avioncito h2 {
+    color: rgb(114, 109, 109);
+    font-weight: lighter;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.avioncito h4 {
+    color: rgb(114, 109, 109);
+    font-weight: lighter;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+    font-size: 14px;
+}
+
+.avioncito button {
+    background-color: #e06426;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #C41B30;
+    border-width: 1px;
+}
+
+#seccion2 button:hover {
+    opacity: 0.8
+}
+
+img {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+
+#seccion3 {
+    background-color: #3E7DAE;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+#seccion3 h2 {
+    color: white;
+    font-weight: lighter;
+    margin-left: 200px;
+    font-size: 18px;
+    margin-top: -40px;
+}
+
+#seccion3 h4 {
+    color: white;
+    font-weight: lighter;
+    padding-top: 40px;
+    font-size: 14px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 330px;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+
+.contactar {
+    width: 400px;
+    height: 100%;
+    margin: auto;
+}
+
+.contactar h2 {
+    color: #4b6fc8;
+    font-weight: lighter;
+    font-size: 18px;
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
+.contactar h4 {
+    color: gray;
+    font-weight: lighter;
+    font-size: 12px;
+    padding-top: 12px;
+    padding-left: 100px;
+    margin-top: 10px;
+}
+
+.contactar a {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-top: 16px;
+    color: rgb(50, 176, 226);
+}
+
+.contactar a:hover {
+    color: rgb(57, 51, 51)
+}
+
+
+
+
+
+.paginas {
+    width: 257px;
+    height: 100%;
+    margin: auto;
+}
+
+.paginas h2 {
+    color: #4b6fc8;
+    font-weight: lighter;
+    font-size: 18px;
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
+.paginas ul {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.paginas ul li {
+    padding-top: 17px;
+    color: gray;
+    font-weight: lighter;
+    font-size: 12px;
+    justify-content: center;
+    margin-left: 120px;
+}
+
+
+
+.links-externos {
+    width: 400px;
+    height: 100%;
+    margin: auto;
+}
+
+.links-externos h2 {
+    color: #4b6fc8;
+    font-weight: lighter;
+    font-size: 18px;
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
+.links-externos ul {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links-externos ul li {
+    padding-top: 17px;
+    color: gray;
+    font-weight: lighter;
+    font-size: 12px;
+    justify-content: center;
+    margin-left: 120px;
+}
